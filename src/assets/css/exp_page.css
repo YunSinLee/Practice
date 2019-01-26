@@ -1,0 +1,111 @@
+#exp-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(234, 237, 241, 1);
+}
+
+#exp-page .wrap {
+  width: 128rem;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+#exp-page .wrap .title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 16rem;
+  color: rgb(71, 205, 255);
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+#exp-page .wrap .speech-buble-hh {
+  position: absolute;
+  top: -5rem;
+  left: 9rem;
+}
+
+#exp-page .wrap .speech-buble-hh::before {
+  content: "";
+  display: block;
+  background-color: rgb(71, 205, 255);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: rotate(-45deg) translate(-50%, 0);
+}
+
+#exp-page .wrap .speech-buble-hh p {
+  background-color: rgb(71, 205, 255);
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 32rem;
+  font-size: 1.6rem;
+}
+
+#exp-page .wrap .speech-buble-jk {
+  position: absolute;
+  top: -8rem;
+  left: 48rem;
+}
+
+#exp-page .wrap .speech-buble-jk::before {
+  content: "";
+  display: block;
+  background-color: rgb(90, 225, 255);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: rotate(-45deg) translate(-50%, 0);
+}
+
+#exp-page .wrap .speech-buble-jk p {
+  background-color: rgb(90, 225, 255);
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 32rem;
+  font-size: 1.6rem;
+}
+
+#exp-page .wrap .speech-buble-dh {
+  position: absolute;
+  top: -9rem;
+  left: 87rem;
+}
+
+#exp-page .wrap .speech-buble-dh::before {
+  content: "";
+  display: block;
+  background-color: rgb(71, 205, 255);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: rotate(-45deg) translate(-50%, 0);
+}
+
+#exp-page .wrap .speech-buble-dh p {
+  background-color: rgb(71, 205, 255);
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 32rem;
+  font-size: 1.6rem;
+}
+
+#exp-page .wrap .expImg {
+  width: 128rem;
+  height: 52vh;
+  background: url("../img/ExpImg.png") center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
